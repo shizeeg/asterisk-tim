@@ -14,7 +14,7 @@ NOW_TIME_M=`date +%M`.wav
 NEXT_TIME_H=`date +%H --date '+1 min'`.wav
 NEXT_TIME_M=`date +%M --date '+1 min'`.wav
 
-aplay -q \
+mpv --no-terminal --gapless-audio=yes \
   ${PREFIX}/pat_simmons/the_phrase.wav \
   ${PREFIX}/pat_simmons/${NOW_TIME_H} \
   ${PREFIX}/pat_simmons/${NOW_TIME_M} \

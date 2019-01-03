@@ -44,6 +44,7 @@ ToDo
 ----
 - Noise reduction on Pat Simmons samples
 - Record Ethel Cain
+= Transition to flac/mpv(paplay?), Noise Reduction (WIP)
 
 Credits
 -------
